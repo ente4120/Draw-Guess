@@ -1,0 +1,9 @@
+<div class="drawDiv">
+    <h1>Draw {{word}}</h1>
+    <app-canvas (Image)="coordinate=$event"></app-canvas>
+    <button class="clearBut" routerLink="/drowing/:word">Clear</button>
+    <button class="sendBut" (click)="updateGame()" routerLink="/waiting">Send</button>
+</div>
+
+
+

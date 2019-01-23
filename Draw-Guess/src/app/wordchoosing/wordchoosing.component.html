@@ -1,0 +1,7 @@
+<div class="wordDiv">
+    <h2>Choose</h2>
+    <button routerLink="/drowing/{{words[0]}}" (click)="points(5)">{{words[0]}} <span>Hard</span></button>
+    <button routerLink="/drowing/{{words[1]}}" (click)="points(3)">{{words[1]}} <span>Medium</span></button>
+    <button routerLink="/drowing/{{words[2]}}" (click)="points(1)">{{words[2]}} <span>Easy</span></button>
+    <h1>{{this.player.score}} : {{this.opponent.score}}</h1>
+</div>

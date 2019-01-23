@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.navbar{
+  /* background-color: #134272; */
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-variant: small-caps;
+  text-shadow: 2px 3px 3px black;
+  box-shadow: 0 7px 7px 0 rgba(0,0,0,0.3), 0 5px 7px 0 rgba(0,0,0,0.12);
+}
+
+

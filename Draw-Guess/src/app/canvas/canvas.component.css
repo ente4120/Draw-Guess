@@ -1,0 +1,9 @@
+canvas {
+  background-color:white;
+  border-radius: 5px;
+}
+
+#canvas{
+  width: 100px !important;
+}
+

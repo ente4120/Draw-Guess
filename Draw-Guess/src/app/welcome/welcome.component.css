@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.welcomeDiv{
+  padding: 50px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-variant: small-caps;
+  color:white;
+}
+
+h1{
+  font-size:60px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+h2{
+  font-size:40px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+h3{
+  font-size:30px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+button{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(170, 16, 157);
+  border: none;
+  color:rgba(255, 255, 255, 0.5);
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: play;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-size: 89px;
+  border-radius: 50px;
+  /* text-shadow: 2px 2px 3px #1C6EA4; */
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.16), 0 5px 10px 0 rgba(0,0,0,0.12);
+}
+
+@-webkit-keyframes play {
+  0%   {background-color: rgb(112, 12, 79, 0.8);}
+  25%  {background-color: rgba(20, 81, 161, 0.7);}
+  50%  {background-color: rgb(47, 47, 218, 0.7);}
+  100% {background-color: rgb(119, 9, 146, 0.8);}
+}
+
+@keyframes play {
+  0%   {background-color: rgb(112, 12, 79, 0.8);}
+  25%  {background-color: rgba(20, 81, 161, 0.7);}
+  50%  {background-color: rgb(47, 47, 218, 0.7);}
+  100% {background-color: rgb(119, 9, 146, 0.8);}
+}
+

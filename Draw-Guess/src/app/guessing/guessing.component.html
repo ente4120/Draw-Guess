@@ -1,0 +1,10 @@
+<div class="guessDiv">
+  <h1>Guess the word</h1>
+    <canvas #canvas></canvas>
+  <input type="text" [(ngModel)]="word" />
+    <button class="checkBut" (click)="checkGuess()">Check</button>
+</div>
+<div *ngIf="!loading" class="guessDiv">
+    <h1>You did it!</h1>
+</div>
+
